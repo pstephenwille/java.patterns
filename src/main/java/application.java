@@ -5,11 +5,11 @@ import decorator.starbuzz.*;
 public class application {
     public static void main(String[] args) {
         System.out.println("I am alive!");
+
         StarbuzzCoffee.main(null);
     }
 
     public static class StarbuzzCoffee {
-
         public static void main(String args[]) {
             Beverage beverage = new Espresso();
             System.out.println(beverage.getDescription()
