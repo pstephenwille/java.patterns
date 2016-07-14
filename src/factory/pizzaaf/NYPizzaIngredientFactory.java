@@ -1,7 +1,8 @@
 package factory.pizzaaf;
 
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
- 
+
+	/* Factory Methods */
 	public Dough createDough() {
 		return new ThinCrustDough();
 	}

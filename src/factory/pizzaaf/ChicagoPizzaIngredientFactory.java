@@ -4,6 +4,8 @@ public class ChicagoPizzaIngredientFactory
 	implements PizzaIngredientFactory 
 {
 
+	/* Factory Methods
+	* Sub classes determine the types to instantiate. */
 	public Dough createDough() {
 		return new ThickCrustDough();
 	}

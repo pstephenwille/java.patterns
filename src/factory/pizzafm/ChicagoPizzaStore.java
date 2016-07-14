@@ -2,6 +2,8 @@ package factory.pizzafm;
 
 public class ChicagoPizzaStore extends PizzaStore {
 
+	/*
+	* Factory Method */
 	Pizza createPizza(String item) {
         	if (item.equals("cheese")) {
             		return new ChicagoStyleCheesePizza();

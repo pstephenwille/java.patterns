@@ -3,11 +3,13 @@ package factory.pizzafm;
 public class NYPizzaStore extends PizzaStore {
 	/*
 	* CONCRETE CREATOR
+	* Creates concrete products with its Factory Method (createPizza).
 	*
 	* Define abstract 'createPizza'.
 	* Returns a 'Pizza' of the specified type; cheese, veggie, etc
 	* Example of programming to an interface, not each implementation. */
 	public Pizza createPizza(String item) {
+		/* Subclasses instaniate different types. */
 		if (item.equals("cheese")) {
 			return new NYStyleCheesePizza();
 		} else if (item.equals("veggie")) {

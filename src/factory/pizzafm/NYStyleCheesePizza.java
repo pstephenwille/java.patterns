@@ -1,5 +1,7 @@
 package factory.pizzafm;
 
+/*
+* Creates products through inheritance. */
 public class NYStyleCheesePizza extends Pizza {
     /*
     * CONCRETE PRODUCT

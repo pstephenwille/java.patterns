@@ -1,7 +1,9 @@
 package factory.pizzaaf;
 
 public abstract class PizzaStore {
- 
+
+	/*
+	* product factory */
 	protected abstract Pizza createPizza(String item);
  
 	public Pizza orderPizza(String type) {
